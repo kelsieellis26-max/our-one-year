@@ -1,0 +1,150 @@
+index.html 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background: linear-gradient(
+        to bottom,
+        #101c3c,
+        #243d68,
+        #719ac5
+    );
+    color: #f0f4ff;
+    text-align: center;
+    font-family: cursive;
+    padding: 70px 20px;
+}
+
+h1 {
+    color: #dceaff;
+    font-size: 36px;
+}
+
+button {
+    background-color: #8eadd8;
+    color: #101c3c;
+    border: 2px solid #e5efff;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 17px;
+    cursor: pointer;
+}
+</style>
+</style>    <title>One Year of Us ♡</title>
+    <title>One Year of Us ♡</title>
+</head>
+
+<body>
+<h1>🌙 One Year Under The Same Moon 🦊</h1>
+    
+    <p>365 days of loving you, laughing with you and making memories. 💙</p>
+
+<p>Even under different skies, we're looking at the same moon.</p>
+
+<p>I'm so lucky to have you. ♡</p>
+
+    <button onclick="showLove()">
+        Click for a surprise 💗
+    </button>
+
+   <div class="letter">
+    <h2>A little letter for you 💌</h2>
+
+    <button onclick="openLetter()">
+        Open your letter ♡
+    </button>
+
+    <div id="loveLetter" style="display:none;">
+        <h2>  To my favourite person, my love. ♡
+
+Happy one year, sweetheart.
+
+I genuinely don't think words could ever explain just how much you mean to me. One whole year. One whole year of getting to love you, laugh with you, make memories with you and have you become such an important part of my life.
+
+Even though there's distance between us, you've never made me feel like you're far away. Somehow, even through a screen, you've managed to make me feel things I never knew I could feel. You've given me so many reasons to smile, so many moments to look back on and so many things to be grateful for.
+
+I love everything about you. I love your personality, your little habits, the way you make me laugh, the way you make ordinary days feel special and all the little things that make you who you are. I hope you know how incredibly special you are to me, because I don't think I'll ever be able to say it enough.
+
+If I could go back and experience our first year all over again, I'd choose you every single time. Through every laugh, every conversation, every silly moment and every difficult day, I'd still choose you.
+
+I wish I could be beside you right now, looking at the same moon, holding your hand and telling you all of this in person. But until that day comes, I hope this little website reminds you that somewhere out there, there's a girl who loves you more than she could ever put into words.
+
+Thank you for being you. Thank you for choosing me. Thank you for making this past year so special.
+
+Here's to our first year, and hopefully so many more.
+
+I love you endlessly, my moon, my favourite person, my everything. ♡
+
+Happy anniversary, my love. 🌙💙
+
+Forever yours. ♡                     </h2>
+
+        <p>
+            
+        </p>
+
+        <p>
+            If I could choose anyone in the universe,
+            I'd still choose you. Every single time. 💙
+        </p>
+
+        <p>Forever your girl ♡</p>
+    </div><div class="reasons">
+    <h2>Little reasons why I love you 🌙</h2>
+
+    <p>Click a star to discover a reason ♡</p>
+
+    <button onclick="showReason(0)">⭐</button>
+    <button onclick="showReason(1)">⭐</button>
+    <button onclick="showReason(2)">⭐</button>
+    <button onclick="showReason(3)">⭐</button>
+    <button onclick="showReason(4)">⭐</button>
+
+    <p id="reason"></p>
+</div><div class="gallery">
+
+    <h2>A year of us ♡</h2>
+
+    <p>Little moments I'll treasure forever.</p>
+
+    <div class="polaroids">
+
+        <div class="polaroid">
+            <img src="https://placehold.co/250x250/e0eaff/315b83?text=Our+Memory+1">
+            <p>The beginning of us ♡</p>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://placehold.co/250x250/e0eaff/315b83?text=Our+Memory+2">
+            <p>One of my favourite days</p>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://placehold.co/250x250/e0eaff/315b83?text=Our+Memory+3">
+            <p>My favourite person 💙</p>
+        </div>
+
+    </div>
+</div>
+</div>
+    <script>const reasons = [
+    "You make even my worst days better. 💙",
+    "I love the way you make me laugh.",
+    "You make distance feel a little smaller.",
+    "I love every little thing that makes you YOU.",
+    "i love you :). 🌙"
+];
+
+function showReason(number) {
+    document.getElementById("reason").innerText =
+        reasons[number];
+}
+        function showLove() {
+            document.getElementById("message").innerHTML =
+            "You're my favourite person. I love you! ♡";
+        }
+    </script>
+
+</body>
+</html>
